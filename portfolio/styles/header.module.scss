@@ -1,0 +1,30 @@
+.container {
+  padding: 0 2rem;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+&__container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+&__nav {
+  width: 71%;
+
+  @media all and (max-width: 1440px) {
+    width: 70%;
+  }
+
+  @media all and (max-width: 1080px) {
+    width: 75.4%;
+  }
+
+  @media all and (max-width: 800px) {
+    width: 83%;
+  }
+}
